@@ -1,6 +1,5 @@
 import os
 import fnmatch
-import chardet
 
 def is_binary(file_path):
     with open(file_path, 'rb') as file:
